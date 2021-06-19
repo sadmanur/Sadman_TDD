@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="34653" started-at="2021-06-19T19:22:02 EDT" finished-at="2021-06-19T19:22:37 EDT">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="RediffTestRunner.rediffMailAlertTest()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="rediffMailAlertTest" class="rediff.pack.RediffTestRunner"/>
+        <method signature="UPSTestRunner.myDemoTest2()[pri:1, instance:ups.pack.UPSTestRunner@3234e239]" name="myDemoTest2" class="ups.pack.UPSTestRunner"/>
+        <method signature="UPSTestRunner.signUpLinkTest()[pri:4, instance:ups.pack.UPSTestRunner@3234e239]" name="signUpLinkTest" class="ups.pack.UPSTestRunner"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="TestPractice" duration-ms="34653" started-at="2021-06-19T19:22:02 EDT" finished-at="2021-06-19T19:22:37 EDT">
+      <class name="ups.pack.UPSTestRunner">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="beforeMethod" is-config="true" duration-ms="4370" started-at="2021-06-19T19:22:03 EDT" finished-at="2021-06-19T19:22:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myDemoTest2()[pri:1, instance:ups.pack.UPSTestRunner@3234e239]" name="myDemoTest2" duration-ms="6" started-at="2021-06-19T19:22:07 EDT" finished-at="2021-06-19T19:22:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myDemoTest2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="afterMethod" is-config="true" duration-ms="1580" started-at="2021-06-19T19:22:07 EDT" finished-at="2021-06-19T19:22:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="beforeMethod" is-config="true" duration-ms="1765" started-at="2021-06-19T19:22:08 EDT" finished-at="2021-06-19T19:22:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="signUpLinkTest()[pri:4, instance:ups.pack.UPSTestRunner@3234e239]" name="signUpLinkTest" duration-ms="18028" started-at="2021-06-19T19:22:10 EDT" finished-at="2021-06-19T19:22:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpLinkTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="afterMethod" is-config="true" duration-ms="259" started-at="2021-06-19T19:22:28 EDT" finished-at="2021-06-19T19:22:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ups.pack.UPSTestRunner -->
+      <class name="rediff.pack.RediffTestRunner">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="beforeMethod" is-config="true" duration-ms="2544" started-at="2021-06-19T19:22:29 EDT" finished-at="2021-06-19T19:22:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rediffMailAlertTest()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="rediffMailAlertTest" duration-ms="5720" started-at="2021-06-19T19:22:31 EDT" finished-at="2021-06-19T19:22:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffMailAlertTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="afterMethod" is-config="true" duration-ms="287" started-at="2021-06-19T19:22:37 EDT" finished-at="2021-06-19T19:22:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- rediff.pack.RediffTestRunner -->
+    </test> <!-- TestPractice -->
+  </suite> <!-- TestSuite -->
+</testng-results>
