@@ -1,56 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="34653" started-at="2021-06-19T19:22:02 EDT" finished-at="2021-06-19T19:22:37 EDT">
+  <suite name="Default suite" duration-ms="36552" started-at="2021-06-29T21:56:14 EDT" finished-at="2021-06-29T21:56:50 EDT">
     <groups>
+      <group name="SanityTest">
+        <method signature="UPSTestRunner.loginErrorMessageTest()[pri:3, instance:ups.pack.UPSTestRunner@42f93a98]" name="loginErrorMessageTest" class="ups.pack.UPSTestRunner"/>
+        <method signature="UPSTestRunner.myDemoTest1()[pri:2, instance:ups.pack.UPSTestRunner@42f93a98]" name="myDemoTest1" class="ups.pack.UPSTestRunner"/>
+        <method signature="UPSTestRunner.upsSignUpNoInputError()[pri:1, instance:ups.pack.UPSTestRunner@42f93a98]" name="upsSignUpNoInputError" class="ups.pack.UPSTestRunner"/>
+      </group> <!-- SanityTest -->
       <group name="RegressionTest">
-        <method signature="RediffTestRunner.rediffMailAlertTest()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="rediffMailAlertTest" class="rediff.pack.RediffTestRunner"/>
-        <method signature="UPSTestRunner.myDemoTest2()[pri:1, instance:ups.pack.UPSTestRunner@3234e239]" name="myDemoTest2" class="ups.pack.UPSTestRunner"/>
-        <method signature="UPSTestRunner.signUpLinkTest()[pri:4, instance:ups.pack.UPSTestRunner@3234e239]" name="signUpLinkTest" class="ups.pack.UPSTestRunner"/>
+        <method signature="RediffTestRunner.rediffMailAlertTest()[pri:0, instance:rediff.pack.RediffTestRunner@c46bcd4]" name="rediffMailAlertTest" class="rediff.pack.RediffTestRunner"/>
+        <method signature="UPSTestRunner.myDemoTest2()[pri:1, instance:ups.pack.UPSTestRunner@42f93a98]" name="myDemoTest2" class="ups.pack.UPSTestRunner"/>
+        <method signature="UPSTestRunner.signUpLinkTest()[pri:4, instance:ups.pack.UPSTestRunner@42f93a98]" name="signUpLinkTest" class="ups.pack.UPSTestRunner"/>
       </group> <!-- RegressionTest -->
     </groups>
-    <test name="TestPractice" duration-ms="34653" started-at="2021-06-19T19:22:02 EDT" finished-at="2021-06-19T19:22:37 EDT">
+    <test name="Default test" duration-ms="36552" started-at="2021-06-29T21:56:14 EDT" finished-at="2021-06-29T21:56:50 EDT">
       <class name="ups.pack.UPSTestRunner">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="beforeMethod" is-config="true" duration-ms="4370" started-at="2021-06-19T19:22:03 EDT" finished-at="2021-06-19T19:22:07 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="beforeMethod" is-config="true" duration-ms="1804" started-at="2021-06-29T21:56:14 EDT" finished-at="2021-06-29T21:56:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="myDemoTest2()[pri:1, instance:ups.pack.UPSTestRunner@3234e239]" name="myDemoTest2" duration-ms="6" started-at="2021-06-19T19:22:07 EDT" finished-at="2021-06-19T19:22:07 EDT">
+        <test-method status="PASS" signature="myDemoTest2()[pri:1, instance:ups.pack.UPSTestRunner@42f93a98]" name="myDemoTest2" duration-ms="5" started-at="2021-06-29T21:56:16 EDT" finished-at="2021-06-29T21:56:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myDemoTest2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="afterMethod" is-config="true" duration-ms="1580" started-at="2021-06-19T19:22:07 EDT" finished-at="2021-06-19T19:22:08 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="afterMethod" is-config="true" duration-ms="93" started-at="2021-06-29T21:56:16 EDT" finished-at="2021-06-29T21:56:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="beforeMethod" is-config="true" duration-ms="1765" started-at="2021-06-19T19:22:08 EDT" finished-at="2021-06-19T19:22:10 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="beforeMethod" is-config="true" duration-ms="1210" started-at="2021-06-29T21:56:16 EDT" finished-at="2021-06-29T21:56:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="signUpLinkTest()[pri:4, instance:ups.pack.UPSTestRunner@3234e239]" name="signUpLinkTest" duration-ms="18028" started-at="2021-06-19T19:22:10 EDT" finished-at="2021-06-19T19:22:28 EDT">
+        <test-method status="FAIL" signature="upsSignUpNoInputError()[pri:1, instance:ups.pack.UPSTestRunner@42f93a98]" name="upsSignUpNoInputError" duration-ms="3628" started-at="2021-06-29T21:56:17 EDT" finished-at="2021-06-29T21:56:21 EDT">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ups.pack.UpsSignUpPage.accountName(UpsSignUpPage.java:21)
+at ups.pack.UPSTestRunner.upsSignUpNoInputError(UPSTestRunner.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upsSignUpNoInputError -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="afterMethod" is-config="true" duration-ms="227" started-at="2021-06-29T21:56:21 EDT" finished-at="2021-06-29T21:56:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="beforeMethod" is-config="true" duration-ms="1185" started-at="2021-06-29T21:56:21 EDT" finished-at="2021-06-29T21:56:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myDemoTest1()[pri:2, instance:ups.pack.UPSTestRunner@42f93a98]" name="myDemoTest1" duration-ms="1" started-at="2021-06-29T21:56:22 EDT" finished-at="2021-06-29T21:56:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myDemoTest1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="afterMethod" is-config="true" duration-ms="72" started-at="2021-06-29T21:56:22 EDT" finished-at="2021-06-29T21:56:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="beforeMethod" is-config="true" duration-ms="1116" started-at="2021-06-29T21:56:22 EDT" finished-at="2021-06-29T21:56:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginErrorMessageTest()[pri:3, instance:ups.pack.UPSTestRunner@42f93a98]" name="loginErrorMessageTest" duration-ms="6413" started-at="2021-06-29T21:56:23 EDT" finished-at="2021-06-29T21:56:30 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at ups.pack.UPSTestRunner.loginErrorMessageTest(UPSTestRunner.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessageTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="afterMethod" is-config="true" duration-ms="201" started-at="2021-06-29T21:56:30 EDT" finished-at="2021-06-29T21:56:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="beforeMethod" is-config="true" duration-ms="1235" started-at="2021-06-29T21:56:30 EDT" finished-at="2021-06-29T21:56:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="signUpLinkTest()[pri:4, instance:ups.pack.UPSTestRunner@42f93a98]" name="signUpLinkTest" duration-ms="7497" started-at="2021-06-29T21:56:31 EDT" finished-at="2021-06-29T21:56:38 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpLinkTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@3234e239]" name="afterMethod" is-config="true" duration-ms="259" started-at="2021-06-19T19:22:28 EDT" finished-at="2021-06-19T19:22:29 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ups.pack.UPSTestRunner@42f93a98]" name="afterMethod" is-config="true" duration-ms="254" started-at="2021-06-29T21:56:38 EDT" finished-at="2021-06-29T21:56:39 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- ups.pack.UPSTestRunner -->
       <class name="rediff.pack.RediffTestRunner">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="beforeMethod" is-config="true" duration-ms="2544" started-at="2021-06-19T19:22:29 EDT" finished-at="2021-06-19T19:22:31 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:rediff.pack.RediffTestRunner@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1107" started-at="2021-06-29T21:56:39 EDT" finished-at="2021-06-29T21:56:40 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="rediffMailAlertTest()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="rediffMailAlertTest" duration-ms="5720" started-at="2021-06-19T19:22:31 EDT" finished-at="2021-06-19T19:22:37 EDT">
+        <test-method status="PASS" signature="rediffMailAlertTest()[pri:0, instance:rediff.pack.RediffTestRunner@c46bcd4]" name="rediffMailAlertTest" duration-ms="6280" started-at="2021-06-29T21:56:40 EDT" finished-at="2021-06-29T21:56:46 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rediffMailAlertTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:rediff.pack.RediffTestRunner@3d921e20]" name="afterMethod" is-config="true" duration-ms="287" started-at="2021-06-19T19:22:37 EDT" finished-at="2021-06-19T19:22:37 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:rediff.pack.RediffTestRunner@c46bcd4]" name="afterMethod" is-config="true" duration-ms="4165" started-at="2021-06-29T21:56:46 EDT" finished-at="2021-06-29T21:56:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- rediff.pack.RediffTestRunner -->
-    </test> <!-- TestPractice -->
-  </suite> <!-- TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

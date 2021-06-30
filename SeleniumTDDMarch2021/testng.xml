@@ -7,6 +7,7 @@
 
 			<run>
 				<include name="RegressionTest" />
+				<include name="SanityTest" />
 			</run>
 
 		</groups>
@@ -15,15 +16,16 @@
 
 			<class name="ups.pack.UPSTestRunner">
 
-				<!-- <methods> <include name="signUpLinkTest" /> 
+				 <methods> <include name="signUpLinkTest" /> 
 				<include name="loginErrorMessageTest"/> 
-				<exclude name="" /> </methods> -->
+				<include name="upsSignUpPage" />
+				<exclude name="" /> </methods> 
 
 			</class>
-			<class name="rediff.pack.RediffTestRunner" />
+		<!--  	<class name="rediff.pack.RediffTestRunner" /> -->
 
-		</classes>
+		</classes> 
 
 
-	</test> <!-- Test -->
+	</test> <!-- Test --> 
 </suite> <!-- Suite -->
