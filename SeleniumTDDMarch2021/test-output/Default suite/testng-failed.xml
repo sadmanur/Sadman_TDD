@@ -6,8 +6,8 @@
       <class name="ups.pack.UPSTestRunner">
         <methods>
           <include name="afterMethod"/>
-          <include name="loginErrorMessageTest"/>
-          <include name="upsSignUpNoInputError"/>
+          <include name="signUpLinkTest"/>
+          <include name="upsSignUpPage"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- ups.pack.UPSTestRunner -->

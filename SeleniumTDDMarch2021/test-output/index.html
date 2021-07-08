@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sadma\AppData\Local\Temp\testng-eclipse-784908932\testng-customsuite.xml</span>
+                    <span>C:\Users\sadma\AppData\Local\Temp\testng-eclipse--1790792660\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,12 +104,12 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="loginErrorMessageTest">loginErrorMessageTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="signUpLinkTest">signUpLinkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="upsSignUpNoInputError">upsSignUpNoInputError</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="upsSignUpPage">upsSignUpPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -123,22 +123,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="loginErrorMessageTest">loginErrorMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="myDemoTest1">myDemoTest1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="myDemoTest2">myDemoTest2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="rediff.pack.RediffTestRunner" hash-for-method="rediffMailAlertTest">rediffMailAlertTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ups.pack.UPSTestRunner" hash-for-method="signUpLinkTest">signUpLinkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -161,13 +156,17 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginErrorMessageTest">
-                  </a> <!-- loginErrorMessageTest -->
-                  <span class="method-name">loginErrorMessageTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
+                  <a name="signUpLinkTest">
+                  </a> <!-- signUpLinkTest -->
+                  <span class="method-name">signUpLinkTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Sign Up | UPS] but found [Sign up. | UPS]
 	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.fail(Assert.java:106)
-	at ups.pack.UPSTestRunner.loginErrorMessageTest(UPSTestRunner.java:39)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at ups.pack.UPSTestRunner.signUpLinkTest(UPSTestRunner.java:80)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -202,12 +201,11 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="upsSignUpNoInputError">
-                  </a> <!-- upsSignUpNoInputError -->
-                  <span class="method-name">upsSignUpNoInputError</span>
+                  <a name="upsSignUpPage">
+                  </a> <!-- upsSignUpPage -->
+                  <span class="method-name">upsSignUpPage</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at ups.pack.UpsSignUpPage.accountName(UpsSignUpPage.java:21)
-	at ups.pack.UPSTestRunner.upsSignUpNoInputError(UPSTestRunner.java:48)
+	at ups.pack.UPSTestRunner.upsSignUpPage(UPSTestRunner.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -245,24 +243,16 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">rediff.pack.RediffTestRunner</span>
+              <span class="class-name">ups.pack.UPSTestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="rediffMailAlertTest">
-                  </a> <!-- rediffMailAlertTest -->
-                  <span class="method-name">rediffMailAlertTest</span>
+                  <a name="loginErrorMessageTest">
+                  </a> <!-- loginErrorMessageTest -->
+                  <span class="method-name">loginErrorMessageTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ups.pack.UPSTestRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="myDemoTest1">
@@ -277,19 +267,12 @@
                   <span class="method-name">myDemoTest2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signUpLinkTest">
-                  </a> <!-- signUpLinkTest -->
-                  <span class="method-name">signUpLinkTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sadma\AppData\Local\Temp\testng-eclipse-784908932\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sadma\AppData\Local\Temp\testng-eclipse--1790792660\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -298,12 +281,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;rediff.pack.RediffMailTest&quot;/&gt;
-      &lt;class name=&quot;driver.pack.BrowserDrivers&quot;/&gt;
       &lt;class name=&quot;ups.pack.UPSTestRunner&quot;/&gt;
-      &lt;class name=&quot;ups.pack.UpsLoginPage&quot;/&gt;
-      &lt;class name=&quot;rediff.pack.RediffTestRunner&quot;/&gt;
-      &lt;class name=&quot;ups.pack.UpsSignUpPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -317,7 +295,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (6 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -335,10 +313,6 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">rediffMailAlertTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">signUpLinkTest</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -352,10 +326,6 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">myDemoTest1</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">upsSignUpNoInputError</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -375,36 +345,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'signUpLinkTest')
+data.setCell(0, 1, 'loginErrorMessageTest')
 data.setCell(0, 2, 'ups.pack.UPSTestRunner')
-data.setCell(0, 3, 7497);
+data.setCell(0, 3, 5473);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginErrorMessageTest')
+data.setCell(1, 1, 'signUpLinkTest')
 data.setCell(1, 2, 'ups.pack.UPSTestRunner')
-data.setCell(1, 3, 6413);
+data.setCell(1, 3, 5154);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'rediffMailAlertTest')
-data.setCell(2, 2, 'rediff.pack.RediffTestRunner')
-data.setCell(2, 3, 6280);
+data.setCell(2, 1, 'upsSignUpPage')
+data.setCell(2, 2, 'ups.pack.UPSTestRunner')
+data.setCell(2, 3, 2533);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'upsSignUpNoInputError')
+data.setCell(3, 1, 'myDemoTest2')
 data.setCell(3, 2, 'ups.pack.UPSTestRunner')
-data.setCell(3, 3, 3628);
+data.setCell(3, 3, 5);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'myDemoTest2')
+data.setCell(4, 1, 'myDemoTest1')
 data.setCell(4, 2, 'ups.pack.UPSTestRunner')
-data.setCell(4, 3, 5);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'myDemoTest1')
-data.setCell(5, 2, 'ups.pack.UPSTestRunner')
-data.setCell(5, 3, 1);
+data.setCell(4, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -437,78 +403,63 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">myDemoTest2</span>
-                <span class="method-start">1805 ms</span>
+                <span class="method-start">1454 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">1812 ms</span>
+                <span class="method-start">1461 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">1909 ms</span>
+                <span class="method-start">1522 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">upsSignUpNoInputError</span>
-                <span class="method-start">3119 ms</span>
+                <span class="method-name">upsSignUpPage</span>
+                <span class="method-start">2535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">6749 ms</span>
+                <span class="method-start">5070 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">6976 ms</span>
+                <span class="method-start">5247 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">myDemoTest1</span>
-                <span class="method-start">8161 ms</span>
+                <span class="method-start">6336 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">8164 ms</span>
+                <span class="method-start">6338 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">8237 ms</span>
+                <span class="method-start">6406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginErrorMessageTest</span>
+                <span class="method-start">7409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">17048 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginErrorMessageTest</span>
-                <span class="method-start">9353 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">15768 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">15970 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">signUpLinkTest</span>
-                <span class="method-start">17205 ms</span>
+                <span class="method-start">18134 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">24702 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">rediff.pack.RediffTestRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">24958 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">rediffMailAlertTest</span>
-                <span class="method-start">26065 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">32348 ms</span>
+                <span class="method-start">23289 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

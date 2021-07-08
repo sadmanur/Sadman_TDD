@@ -7,11 +7,7 @@ import org.openqa.selenium.WebElement;
 public class UpsSignUpPage {
 
 	WebDriver driver = null;
-	public WebDriver driver2;
 
-	public UpsSignUpPage(WebDriver driver2) {
-		this.driver2 = driver;
-	}
 
 	public void UpsSignUp(WebDriver driver) {
 		this.driver = driver;

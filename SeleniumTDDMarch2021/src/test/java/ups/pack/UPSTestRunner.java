@@ -20,8 +20,10 @@ public class UPSTestRunner extends BrowserDrivers {
 
 		driver = getChromeDriver();
 		upsLoginPage = new UpsLoginPage(driver);
-		upsSignUpPage = new UpsSignUpPage(driver);
-	}
+		
+		}
+		
+	
 
 	@Test(priority = 3, groups= {"SanityTest"})
 	void loginErrorMessageTest() {
@@ -40,8 +42,8 @@ public class UPSTestRunner extends BrowserDrivers {
 		}
 	}
 		
-		@Test(priority = 1, groups= {"SanityTest"})
-		void upsSignUpNoInputError()  {
+		@Test(priority = 1)
+		void upsSignUpPage()  {
 			driver.get("https://wwwapps.ups.com/doapp/signup");
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
